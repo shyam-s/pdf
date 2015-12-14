@@ -1,0 +1,145 @@
+.page-landing {
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+	float: left;
+	display: none;
+}
+.icon {
+	cursor: pointer;
+	font-size: 24px;
+}
+.user-menu {
+	display: none;
+	width: 0;
+	height: 0;
+	top: 35px;
+	position: absolute;
+	border: 1px solid #bbb;
+}
+
+.user-menu:before {
+	content: '';
+	position: absolute;
+	top: -6px;
+	left: 4px;
+	width: 0; 
+	height: 0; 
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;	
+	border-bottom: 5px solid #bbb;	
+}
+
+.list-group.list-group-root {
+  padding: 0;
+  overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+  margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+  border-radius: 0;
+  border-width: 0;
+  white-space: nowrap;
+}
+
+.list-group.list-group-root > .list-group-item:first-child {
+  border-top-width: 0;
+}
+
+.list-group { 
+  margin-bottom: 5px;	
+}
+
+.hosp-text {
+	text-align: center;
+    width: 100%;
+}
+
+.notify {
+	position: absolute;
+	right: 15px;
+	top: 0;
+}
+
+.landing-site {
+	width: 100%;
+	margin: 60px auto 0;
+}
+
+.single-site, .single-site span {
+	display: block;
+    text-align: center;
+}
+
+.all-devices {
+	margin: 350px 0 0;
+	display: none;
+	position: relative;
+}
+
+.all-devices h4 {
+	text-align: center;
+	background: #ccc;
+	border-radius: 10px;
+	padding: 6px 0;
+	margin-bottom: 25px;
+	
+}
+
+.devices-list ul {
+	text-align:justify;
+	-ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+.devices-list ul li {
+	display:inline-block;
+    padding: 0 33px;
+    margin-bottom: 25px;
+}
+
+.devices-list ul li img {
+	padding-bottom: 5px;
+	border-bottom: 1px solid green;
+}
+
+.devices-list ul:after {
+    content:'';
+    display:inline-block;
+    width:100%;
+}
+
+.device-name span {
+	display: block;
+	text-align: center;
+}
+
+.shifted {
+	width: 100%;
+}
+
+
+.collapse {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 2s ease;
+     -moz-transition: height 2s ease;
+       -o-transition: height 2s ease;
+          transition: height 2s ease;
+}
+
+.collapse.in {
+  height: auto;
+}
+
+.page-cyclelog {
+	display: none;
+	width: 0;
+	float: left;
+	background: green;
+	min-height: 500px;
+}

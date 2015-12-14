@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <title>Index Page</title>
+  <meta charset="utf-8">
+  <metaname="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../.././lib/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../.././styles/common.css">
+  <link rel="stylesheet" href="../.././styles/home.css">
+  <!--<link rel="stylesheet" href="../.././styles/landing-page.css"> -->
+</head>
+
+<body>
+
+  <section>    
+    <script src="../.././lib/js/jquery-1.11.3.min.js"></script>
+    <script src="../.././lib/js/angular.min.js"></script>
+    <script src="../.././lib/js/angular-route.min.js"></script>
+    <script src="../.././lib/js/angular-animate.min.js"></script>
+    <script src="../.././lib/js/bootstrap.min.js"></script>
+    <script src="../.././modules/home/home-module.js"></script>
+    <!--<script src="./modules/home/landing-page-module.js"></script>-->
+
+  </section>
+
+  <div class="container-fluid">
+    <div class="page-home">
+
+      <div class="upper-tab">
+        <span class="icon pull-left glyphicon glyphicon-menu-hamburger"></span>
+
+        <div class="user-menu">
+          <ul class="list-group list-group-root">
+            <li class="list-group-item">Settings<ul class="list-group">
+                <li class="list-group-item">User Management</li>
+                <li class="list-group-item">Device Management</li>
+              </ul>
+            </li>
+            <li class="list-group-item">Help</li>
+          </ul>
+        </div>
+
+        <div class="hosp-text">Hoag Hospital - 09273323 </div>
+        <span class="notify">Notification</span>
+      </div>  
+
+      <div class="home-sites">
+        <div onclick="goSitePage()" class="site site1"><img src="../.././images/placeholder-img.jpg" /> <span class="site-text">Hoag – 09273322 (Site)</span></div>
+        <div onclick="goSitePage()" class="site site2"><img src="../.././images/placeholder-img.jpg" /> <span class="site-text">Kaiser – 09273322 (Site)</span></div>
+        <div onclick="goSitePage()" class="site site3"><img src="../.././images/placeholder-img.jpg" /> <span class="site-text">Kaiser – 09273322 (Site)</span></div>
+        <div onclick="goSitePage()" class="site site4"><img src="../.././images/placeholder-img.jpg" /> <span class="site-text">Kaiser – 09273322 (Site)</span></div>
+        <span class="stretch"></span>
+      </div>
+
+    </div>
+  </div>
+
+</body>

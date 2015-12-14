@@ -1,0 +1,149 @@
+.page-home {
+	position: relative;
+	/*width: 100%;*/
+	margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: none;
+}
+.icon {
+	cursor: pointer;
+	font-size: 24px;
+}
+.user-menu {
+	display: none;
+	width: 0;
+	height: 0;
+	top: 35px;
+	position: absolute;
+	border: 1px solid #bbb;
+}
+
+.user-menu:before {
+	content: '';
+	position: absolute;
+	top: -6px;
+	left: 4px;
+	width: 0; 
+	height: 0; 
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;	
+	border-bottom: 5px solid #bbb;	
+};
+
+/*.list-group-item {
+	padding: 10px 0 ;
+}
+
+
+.list-group.list-group-root {
+  padding: 0;
+  overflow: hidden;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.list-group.list-group-root .list-group {
+  margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+  border-radius: 0;
+  border-width: 0 0 0 0;
+  white-space: nowrap;
+}
+
+.list-group.list-group-root > .list-group-item {
+  background: darkgray;
+  padding: 10px 0 ;
+  text-indent: 15px;
+}
+
+.list-group-root > .list-group-item {
+  padding-bottom: 0;
+}
+*/
+
+.list-group.list-group-root {
+  padding: 0;
+  overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+  margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+  border-radius: 0;
+  border-width: 0;
+  white-space: nowrap;
+}
+
+.list-group.list-group-root > .list-group-item:first-child {
+  border-top-width: 0;
+}
+
+.list-group { 
+  margin-bottom: 5px;	
+}
+
+.hosp-text {
+	text-align: center;
+    width: 100%;
+}
+
+.notify {
+	position: absolute;
+	right: 15px;
+	top: 0;
+}
+
+
+.home-sites {
+	text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;  
+    width: 100%;
+    clear: both;
+    padding-top: 200px;
+}
+
+.site1, .site2, .site3, .site4 {
+    width: 240px;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;    
+    margin-bottom: 20px;
+   
+}
+/*
+.site1, .site2, .site3, .site4 {
+    width: 240px;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;    
+    margin-bottom: 20px;
+    -webkit-transition: 2s ease-in;
+    -moz-transition: 2s ease-in;
+    -o-transition: 2s ease-in;
+    transition: 2s ease-in;
+
+}
+
+.site-transit {
+	-ms-transform: translate(500px, -150px);
+        -webkit-transform: translate(500px, -150px);
+        transform: translate(500px, -150px);
+}*/
+
+.home-sites span.site-text{
+	display: block;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+

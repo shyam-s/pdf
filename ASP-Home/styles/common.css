@@ -1,0 +1,36 @@
+.fader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 1;
+}
+
+.fader.ng-enter, 
+.fader.ng-leave
+{ 
+    -webkit-transition: 1000ms ease-in all;
+    -moz-transition: 1000ms ease-in all;
+    -ms-transition: 1000ms ease-in all;
+    -o-transition: 1000ms ease-in all;
+    transition: 1000ms ease-in all;
+} 
+ 
+.fader.ng-enter {
+   opacity: 0;
+}
+.fader.ng-enter.ng-enter-active {
+    opacity: 1;
+}
+ 
+.fader.ng-leave {
+     opacity: 1;
+}
+.fader.ng-leave.ng-leave-active{
+    opacity: 0;
+}
+
+.ng-leave-prepare {
+    opacity: 0;
+}

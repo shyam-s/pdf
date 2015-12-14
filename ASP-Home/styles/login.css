@@ -1,0 +1,84 @@
+.page-login {
+	margin: 200px auto 0;
+	max-width: 300px;		
+	position: relative;
+	/*font-family: "Times New Roman", Times, serif;*/
+}
+
+.page form {
+	position: relative;
+}
+
+.form-control {
+	border-radius: 0 !important;
+}
+
+.btn-login {
+	width: 100%;
+}
+
+.forgot-pwd {
+	margin: 15px 0 0 0;
+
+}
+
+.error-msg {
+	text-align: center;
+	width: 400px;
+	padding: 10px 0;
+	background: #ccc;
+	display: none;
+	position:absolute;
+	top:200px;
+	left:-65px;
+	color: #000;
+}
+
+.error-msg span {
+	display:block;
+}
+
+.error-msg a {
+	
+}
+
+.fade {
+   opacity: 0;
+   -webkit-transition: opacity 1s linear;
+      -moz-transition: opacity 1s linear;
+       -ms-transition: opacity 1s linear;
+        -o-transition: opacity 1s linear;
+           transition: opacity 1s linear;
+ }
+
+ .modal-content {
+ 	border-radius: 0 !important;
+ 	box-shadow: none !important;
+ }
+
+ .modal-footer button {
+ 	width: 95px;
+ }
+
+ .modal-footer input[type=checkbox] {
+ 	margin: 4px 4px 4px 0;
+ }
+
+ .modal {
+  text-align: center;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+    .modal:before {
+      display: inline-block;
+      vertical-align: middle;
+      content: " ";
+      height: 100%;
+    }
+}
